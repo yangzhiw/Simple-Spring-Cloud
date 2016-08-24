@@ -1,6 +1,6 @@
 package com.juzi;
 
-import com.juzi.web.ComputeController;
+import com.juzi.web.SimpleController;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -18,7 +18,7 @@ public class ApplicationTests {
 
 	@Before
 	public void setUp() throws Exception {
-		mvc = MockMvcBuilders.standaloneSetup(new ComputeController()).build();
+		mvc = MockMvcBuilders.standaloneSetup(new SimpleController()).build();
 	}
 
 	@Test
