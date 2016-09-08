@@ -8,3 +8,4 @@ eureka-ribbon/target/
 eureka-ribbon/.mvn/
 config-client/target/
 config-server/target/
+monitoring/target/
