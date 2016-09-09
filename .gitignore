@@ -9,3 +9,4 @@ eureka-ribbon/.mvn/
 config-client/target/
 config-server/target/
 monitoring/target/
+spring-cloud1/target/
